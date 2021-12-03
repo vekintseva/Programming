@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+   int a;
+   char p[1024];
+   scanf("%d %s",&a, &p);
+   printf("%d %s",a, p);
+    return 0;
+}
